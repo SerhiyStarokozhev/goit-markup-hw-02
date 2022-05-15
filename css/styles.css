@@ -206,3 +206,7 @@ body {
 .address-link{
     color: var(--white-text-color)
 }
+
+.contact-link {
+    color: rgba(255, 255, 255, 0.6)
+}
