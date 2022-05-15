@@ -68,6 +68,10 @@ body {
     color: var(--title-text-color);
 }
 
+.nav .link.current{
+    color: var(--accent-color);
+}
+
 .header-link{
     font-family: 'Roboto';
     font-style: normal;
