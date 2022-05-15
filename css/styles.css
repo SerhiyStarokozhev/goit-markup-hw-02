@@ -134,6 +134,11 @@ body {
     color: var(--title-text-color);
 }
 
+.portfolio .filter-current{
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+
 .filter-button:hover,
 .filter-button:focus {
     background-color: var(--accent-color);
