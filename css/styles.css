@@ -15,7 +15,6 @@
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
     /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
     padding: 0 !important;
     border: 0 !important;
     height: 1px !important;
@@ -30,10 +29,6 @@
 .link {
     text-decoration: none;
     color: inherit;
-}
-
-.section {
-    text-align: center;
 }
 
 body {
@@ -71,12 +66,8 @@ body {
 .nav .link.current{
     color: var(--accent-color);
 }
-
 .header-link{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
@@ -87,7 +78,6 @@ body {
 }
 
 .hero{
-    height: 600px;
     background-color: var(--hero-bg-color);
 }
 
@@ -109,6 +99,9 @@ body {
     color: var(--white-text-color);
     font-family: inherit;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 .button:hover,
@@ -160,7 +153,6 @@ body {
 .portfolio-text{
     font-size: 16px;
     line-height: 1.88;    
-    color: var(--text-color);
 }
 
 .section-title{
